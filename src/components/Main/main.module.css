@@ -1,6 +1,8 @@
 .main {
     flex: 1;
+    width: 50%;
 }
+
 .inner-main {
     padding: 0 15px;
     font-size: 20px;
@@ -11,14 +13,17 @@
     justify-content: space-between;
     height: 86vh;
 }
+
 .inner-main::-webkit-scrollbar {
     width: 0;
 }
+
 .preloader {
     flex: 3;
     display: flex;
     font-size: 24px;
 }
+
 .preloader div {
     background-color: whitesmoke;
     padding: 10px;
@@ -26,6 +31,7 @@
     font-weight: 600;
     margin: auto;
 }
+
 .last-message {
     background-color: #86898d;
     color: white;

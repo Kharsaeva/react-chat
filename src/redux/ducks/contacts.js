@@ -2,6 +2,7 @@ const initialState = {
   contacts: [],
   loading: false,
   filter: '',
+  selectedContactId: null,
 };
 
 export default function contacts(state = initialState, action) {
@@ -17,6 +18,12 @@ export default function contacts(state = initialState, action) {
         ...state,
         contacts: action.payload,
         loading: false,
+      };
+
+    case CONTACTS_SELECT:
+      return {
+        ...state,
+        selectedContactId: action.payload,
       };
 
     case FILTER_SET:
@@ -40,6 +47,7 @@ const CONTACTS_LOAD_START = 'contacts/load/start';
 const CONTACTS_LOAD_SUCCESS = 'contacts/load/success';
 const FILTER_SET = 'filter/set';
 const REMOVE_SEARCH_TEXT = 'remove/search/text/';
+const CONTACTS_SELECT = 'contacts/select';
 
 export const setFilterText = (text) => {
   return {
@@ -51,6 +59,13 @@ export const setFilterText = (text) => {
 export const removeSearch = () => {
   return {
     type: REMOVE_SEARCH_TEXT,
+  };
+};
+
+export const selectContact = (contactId) => {
+  return {
+    type: CONTACTS_SELECT,
+    payload: contactId,
   };
 };
 
