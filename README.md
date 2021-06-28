@@ -1,6 +1,6 @@
 # Веб-чат
 
-Это групповой проект, выполненный студентами школы программирования <a href="https://intocode.ru/" target="_blank">Intocode</a>
+Это второй групповой проект, выполненный студентами школы программирования <a href="https://intocode.ru/" target="_blank">Intocode</a>
 
 ### <a href="https://intense-island-55096.herokuapp.com/" target="_blank">Открыть чат</a>
 
@@ -11,31 +11,23 @@
 #### 1. Просмотр списка контактов с сервера, поиск контакта
 ![gif](https://github.com/Khalimov-Z/react-chat/blob/Kassumov_Zubayra/gif1.gif)
 
-***
-
-#### 2. Отправка сообщений на сервер и удаление
+#### 2. Отправка сообщений на сервер и его удаление
 ![gif](https://github.com/Khalimov-Z/react-chat/blob/Kassumov_Zubayra/gif2.gif)
 
-***
-
-#### 3. Выезжающее окно с данными о контакте справа, поиск сообщения
+#### 3. Выезжающее окно с данными о контакте справа, поиск в сообщениях
 ![gif](https://github.com/Khalimov-Z/react-chat/blob/Kassumov_Zubayra/gif3.gif)
-
-***
 
 А также:
 + Анимация открытия и закрытия инфобара справа.
-+ Автопрокрутка к последнему сообщению при отправке или открытии чата.
++ Автопрокрутка к последнему сообщению при отправке сообщения или открытии чата.
 + Прелоадер для подгрузки списка контактов, сообщений, переключение между контактами.
-
-***
 
 ### Для запуска проекта вам необходимо:
 
 1. Склонировать проект на ваше устройство:
 
 ```javascript
-git clone https://github.com/Khalimov-Z/react-chat
+git clone https://github.com/Khalimov-Z/react-chat.git
 ```
 
 2. Установить зависимости проекта:
@@ -47,8 +39,6 @@ npm install
 ```javascript
 npm start
 ```
-
-***
 
 ## Технологии проекта
 
@@ -66,8 +56,6 @@ npm start
   <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
   <img alt="PropTypes" src="https://img.shields.io/badge/-PropTypes-lightgrey?style=for-the-badge&logo=react&logoColor=white" />
 </p>
-
-***
 
 ## Команда проекта
 
@@ -88,3 +76,17 @@ npm start
     <img alt="Kharsaeva" src="https://img.shields.io/badge/-Aisha_Kharsaeva-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
+
+## Выполненные мною задачи в этом проекте:
+
+- верстка Main
+
+- вывод списка контактов
+
+- поиск контактов
+
+- отправка сообщений на сервер
+
+- анимация инфобара
+
+- удаление сообщений
